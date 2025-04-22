@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Blog Mahasiswa UDINUS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <img src="/placeholder.svg?height=40&width=40" alt="Logo UDINUS" class="h-10 w-10 mr-3">
+                <h1 class="text-xl font-bold">Blog Mahasiswa UDINUS</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-blue-200">Beranda</a></li>
+                    <li><a href="blog.html" class="hover:text-blue-200 font-medium">Blog</a></li>
+                    <li><a href="about.html" class="hover:text-blue-200">Tentang Saya</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-200">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="bg-blue-700 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4">Blog</h1>
+            <p class="text-lg max-w-2xl mx-auto">Kumpulan artikel, pengalaman, dan pengetahuan selama menjadi mahasiswa di Universitas Dian Nuswantoro.</p>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+                <!-- Main Content -->
+                <div class="lg:w-2/3 lg:pr-8">
+                    <!-- Search Bar -->
+                    <div class="mb-8">
+                        <div class="relative">
+                            <input type="text" id="search-input" placeholder="Cari artikel..." class="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <button id="search-button" class="absolute right-3 top-2 text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Filter Info -->
+                    <div id="filter-info" class="mb-6 hidden">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-4">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <svg class="h-5 w-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div class="ml-3">
+                                    <p id="filter-text" class="text-sm text-blue-700">
+                                        Menampilkan artikel dengan filter: <span id="filter-value" class="font-medium"></span>
+                                    </p>
+                                    <button id="clear-filter" class="mt-2 text-sm text-blue-600 hover:text-blue-800 font-medium">
+                                        Hapus Filter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog Posts -->
+                    <div id="blog-posts" class="space-y-8">
+                        <!-- Blog posts will be loaded here -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row animate-pulse">
+                            <div class="md:w-1/3 bg-gray-200 h-48"></div>
+                            <div class="md:w-2/3 p-6">
+                                <div class="h-4 bg-gray-200 rounded w-1/4 mb-2"></div>
+                                <div class="h-6 bg-gray-200 rounded w-3/4 mb-3"></div>
+                                <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
+                                <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
+                                <div class="h-4 bg-gray-200 rounded w-2/3 mb-4"></div>
+                                <div class="h-4 bg-gray-200 rounded w-1/4"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div id="pagination" class="mt-10 flex justify-center">
+                        <!-- Pagination will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:w-1/3 mt-8 lg:mt-0">
+                    <!-- Categories -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h3 class="text-xl font-bold mb-4">Kategori</h3>
+                        <ul id="categories-list" class="space-y-2">
+                            <!-- Categories will be loaded here -->
+                            <li class="flex justify-between items-center animate-pulse">
+                                <div class="h-4 bg-gray-200 rounded w-24"></div>
+                                <div class="h-4 bg-gray-200 rounded-full w-8"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Popular Posts -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h3 class="text-xl font-bold mb-4">Artikel Populer</h3>
+                        <div id="popular-posts" class="space-y-4">
+                            <!-- Popular posts will be loaded here -->
+                            <div class="flex items-start animate-pulse">
+                                <div class="w-16 h-16 bg-gray-200 rounded mr-4"></div>
+                                <div>
+                                    <div class="h-4 bg-gray-200 rounded w-32 mb-2"></div>
+                                    <div class="h-3 bg-gray-200 rounded w-24"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold mb-4">Tag</h3>
+                        <div id="tags-container" class="flex flex-wrap gap-2">
+                            <!-- Tags will be loaded here -->
+                            <div class="h-6 bg-gray-200 rounded-full w-16 animate-pulse"></div>
+                            <div class="h-6 bg-gray-200 rounded-full w-20 animate-pulse"></div>
+                            <div class="h-6 bg-gray-200 rounded-full w-24 animate-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Blog Mahasiswa UDINUS</h3>
+                    <p class="text-gray-400 max-w-md">Blog personal yang berisi pengalaman, pengetahuan, dan perjalanan sebagai mahasiswa Universitas Dian Nuswantoro.</p>
+                </div>
+                <div class="mb-6 md:mb-0">
+                    <h4 class="font-bold mb-4">Navigasi</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">Tentang Saya</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Kontak</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">Email: mahasiswa@dinus.ac.id</li>
+                        <li class="text-gray-400">Telepon: +62 123 4567 890</li>
+                        <li class="text-gray-400">Alamat: Jl. Imam Bonjol No.207, Semarang</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 Blog Mahasiswa UDINUS. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Function to load blog data
+        async function loadBlogData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                
+                // Get filter parameters from URL
+                const categoryFilter = getUrlParameter('category');
+                const tagFilter = getUrlParameter('tag');
+                const searchQuery = getUrlParameter('search');
+                
+                // Filter articles based on URL parameters
+                let filteredArticles = data.articles;
+                
+                if (categoryFilter) {
+                    filteredArticles = filteredArticles.filter(article => article.category === categoryFilter);
+                    showFilterInfo('kategori', categoryFilter);
+                }
+                
+                if (tagFilter) {
+                    filteredArticles = filteredArticles.filter(article => article.tags.includes(tagFilter));
+                    showFilterInfo('tag', tagFilter);
+                }
+                
+                if (searchQuery) {
+                    filteredArticles = filteredArticles.filter(article => 
+                        article.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                        article.summary.toLowerCase().includes(searchQuery.toLowerCase())
+                    );
+                    showFilterInfo('pencarian', `"${searchQuery}"`);
+                    document.getElementById('search-input').value = searchQuery;
+                }
+                
+                // Render blog posts
+                renderBlogPosts(filteredArticles);
+                
+                // Render categories
+                renderCategories(data.categories);
+                
+                // Render popular posts
+                renderPopularPosts(data.articles.slice(0, 4));
+                
+                // Render tags
+                renderTags(data.tags);
+                
+                // Setup search functionality
+                setupSearch();
+                
+                // Setup clear filter functionality
+                document.getElementById('clear-filter').addEventListener('click', function() {
+                    window.location.href = 'blog.html';
+                });
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('blog-posts').innerHTML = `
+                    <div class="p-8 text-center">
+                        <h2 class="text-2xl font-bold mb-4">Terjadi Kesalahan</h2>
+                        <p class="text-gray-600">Maaf, terjadi kesalahan saat memuat artikel. Silakan coba lagi nanti.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Function to show filter info
+        function showFilterInfo(filterType, filterValue) {
+            const filterInfo = document.getElementById('filter-info');
+            const filterText = document.getElementById('filter-text');
+            const filterValueElement = document.getElementById('filter-value');
+            
+            filterInfo.classList.remove('hidden');
+            filterText.textContent = `Menampilkan artikel dengan ${filterType}: `;
+            filterValueElement.textContent = filterValue;
+        }
+
+        // Function to render blog posts
+        function renderBlogPosts(articles) {
+            if (articles.length === 0) {
+                document.getElementById('blog-posts').innerHTML = `
+                    <div class="bg-white rounded-lg p-8 text-center">
+                        <h2 class="text-xl font-bold mb-4">Tidak Ada Artikel</h2>
+                        <p class="text-gray-600 mb-6">Maaf, tidak ada artikel yang sesuai dengan filter yang dipilih.</p>
+                        <a href="blog.html" class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition duration-300">Lihat Semua Artikel</a>
+                    </div>
+                `;
+                return;
+            }
+            
+            let html = '';
+            
+            articles.forEach(article => {
+                html += `
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 flex flex-col md:flex-row">
+                        <div class="md:w-1/3">
+                            <img src="${article.thumbnail}" alt="${article.title}" class="w-full h-48 md:h-full object-cover">
+                        </div>
+                        <div class="md:w-2/3 p-6">
+                            <div class="flex items-center mb-2">
+                                <span class="text-blue-600 text-sm font-medium mr-3">${article.category}</span>
+                                <span class="text-gray-500 text-sm">${article.date}</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-3">${article.title}</h3>
+                            <p class="text-gray-600 mb-4">${article.summary}</p>
+                            <a href="article.html?id=${article.id}" class="text-blue-600 font-medium hover:text-blue-800">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('blog-posts').innerHTML = html;
+            
+            // Simple pagination (just for demonstration)
+            renderPagination(articles.length);
+        }
+
+        // Function to render pagination
+        function renderPagination(totalItems) {
+            const itemsPerPage = 5;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            
+            if (totalPages <= 1) {
+                document.getElementById('pagination').innerHTML = '';
+                return;
+            }
+            
+            let html = `
+                <nav class="inline-flex rounded-md shadow">
+                    <a href="#" class="py-2 px-4 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                        Sebelumnya
+                    </a>
+            `;
+            
+            for (let i = 1; i <= Math.min(totalPages, 3); i++) {
+                const activeClass = i === 1 ? 'text-blue-600 hover:bg-blue-50' : 'text-gray-500 hover:bg-gray-50';
+                html += `
+                    <a href="#" class="py-2 px-4 border-t border-b border-gray-300 bg-white text-sm font-medium ${activeClass}">
+                        ${i}
+                    </a>
+                `;
+            }
+            
+            html += `
+                    <a href="#" class="py-2 px-4 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                        Selanjutnya
+                    </a>
+                </nav>
+            `;
+            
+            document.getElementById('pagination').innerHTML = html;
+        }
+
+        // Function to render categories
+        function renderCategories(categories) {
+            let html = '';
+            
+            categories.forEach(category => {
+                html += `
+                    <li class="flex justify-between items-center">
+                        <a href="blog.html?category=${encodeURIComponent(category.name)}" class="text-gray-700 hover:text-blue-600">${category.name}</a>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">${category.count}</span>
+                    </li>
+                `;
+            });
+            
+            document.getElementById('categories-list').innerHTML = html;
+        }
+
+        // Function to render popular posts
+        function renderPopularPosts(articles) {
+            let html = '';
+            
+            articles.forEach(article => {
+                html += `
+                    <div class="flex items-start">
+                        <img src="${article.thumbnail}" alt="Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                        <div>
+                            <h4 class="font-medium hover:text-blue-600"><a href="article.html?id=${article.id}">${article.title}</a></h4>
+                            <p class="text-gray-500 text-sm">${article.date}</p>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('popular-posts').innerHTML = html;
+        }
+
+        // Function to render tags
+        function renderTags(tags) {
+            let html = '';
+            
+            tags.forEach(tag => {
+                html += `<a href="blog.html?tag=${encodeURIComponent(tag)}" class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm hover:bg-blue-100 hover:text-blue-800">${tag}</a>`;
+            });
+            
+            document.getElementById('tags-container').innerHTML = html;
+        }
+
+        // Function to setup search functionality
+        function setupSearch() {
+            const searchInput = document.getElementById('search-input');
+            const searchButton = document.getElementById('search-button');
+            
+            searchButton.addEventListener('click', function() {
+                const query = searchInput.value.trim();
+                if (query) {
+                    window.location.href = `blog.html?search=${encodeURIComponent(query)}`;
+                }
+            });
+            
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    const query = searchInput.value.trim();
+                    if (query) {
+                        window.location.href = `blog.html?search=${encodeURIComponent(query)}`;
+                    }
+                }
+            });
+        }
+
+        // Load blog data when page loads
+        document.addEventListener('DOMContentLoaded', loadBlogData);
+    </script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Tips Menghadapi Ujian Akhir Semester",
+      "slug": "tips-menghadapi-ujian-akhir-semester",
+      "category": "Akademik",
+      "date": "12 Mei 2023",
+      "readTime": "5 menit",
+      "thumbnail": "/placeholder.svg?height=400&width=800",
+      "author": "Nama Mahasiswa",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Berbagi pengalaman dan strategi dalam menghadapi ujian akhir semester dengan persiapan yang matang.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ujian Akhir Semester (UAS) merupakan momen yang cukup menegangkan bagi sebagian besar mahasiswa. Persiapan yang matang dan strategi yang tepat sangat diperlukan untuk menghadapi UAS dengan baik. Dalam artikel ini, saya akan berbagi beberapa tips yang telah saya terapkan dan terbukti efektif dalam menghadapi UAS di Universitas Dian Nuswantoro."
+        },
+        {
+          "type": "heading",
+          "text": "1. Manajemen Waktu yang Efektif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manajemen waktu adalah kunci utama dalam persiapan UAS. Buatlah jadwal belajar yang realistis dan konsisten. Alokasikan waktu untuk setiap mata kuliah berdasarkan tingkat kesulitan dan bobot materinya. Jangan lupa untuk menyisihkan waktu istirahat yang cukup agar otak tetap segar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saya biasanya membuat jadwal mingguan dengan alokasi 2-3 jam per hari untuk belajar, dengan fokus pada 1-2 mata kuliah setiap harinya. Metode ini membantu saya menghindari kewalahan dan memastikan semua mata kuliah mendapat perhatian yang cukup."
+        },
+        {
+          "type": "heading",
+          "text": "2. Teknik Belajar yang Sesuai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setiap orang memiliki gaya belajar yang berbeda. Ada yang lebih mudah memahami materi melalui visual, audio, atau praktik langsung. Kenali gaya belajar yang paling efektif untuk diri Anda dan terapkan dalam persiapan UAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beberapa teknik belajar yang bisa dicoba:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Membuat mind map untuk memvisualisasikan konsep dan hubungan antar materi",
+            "Merekam penjelasan dan mendengarkannya kembali",
+            "Mengajarkan materi kepada teman atau menjelaskannya pada diri sendiri",
+            "Mengerjakan latihan soal dan kasus",
+            "Membuat rangkuman dengan kata-kata sendiri"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Belajar Kelompok yang Produktif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Belajar kelompok bisa menjadi sangat efektif jika dilakukan dengan benar. Pilih teman yang memiliki komitmen dan tujuan yang sama. Tetapkan agenda yang jelas untuk setiap sesi belajar kelompok dan pastikan diskusi tetap fokus pada materi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Di UDINUS, saya dan beberapa teman sering memanfaatkan ruang diskusi di perpustakaan atau lab komputer untuk belajar bersama. Kami biasanya membagi tugas, di mana setiap orang mempelajari bagian tertentu dari materi dan kemudian menjelaskannya kepada yang lain."
+        },
+        {
+          "type": "quote",
+          "text": "Jangan menunda belajar hingga malam sebelum ujian. Persiapan yang konsisten jauh lebih efektif daripada sistem kebut semalam."
+        },
+        {
+          "type": "heading",
+          "text": "4. Jaga Kesehatan Fisik dan Mental"
+        },
+        {
+          "type": "paragraph",
+          "text": "Performa otak sangat dipengaruhi oleh kondisi fisik dan mental. Pastikan Anda mendapatkan istirahat yang cukup, makan makanan bergizi, dan tetap aktif secara fisik selama periode persiapan UAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stres adalah hal yang wajar saat menghadapi ujian, tetapi jangan biarkan stres menguasai Anda. Luangkan waktu untuk melakukan aktivitas yang menyenangkan dan menenangkan pikiran, seperti olahraga, meditasi, atau sekadar mengobrol dengan teman."
+        },
+        {
+          "type": "heading",
+          "text": "5. Persiapan Hari H"
+        },
+        {
+          "type": "paragraph",
+          "text": "Persiapkan semua yang diperlukan untuk ujian pada malam sebelumnya, seperti kartu ujian, alat tulis, dan kalkulator (jika diizinkan). Tidur yang cukup dan datang ke lokasi ujian lebih awal untuk menghindari kepanikan dan stres tambahan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saat mengerjakan soal ujian, baca instruksi dengan teliti dan alokasikan waktu untuk setiap soal. Mulailah dengan soal yang Anda kuasai untuk membangun kepercayaan diri, kemudian lanjutkan ke soal yang lebih menantang."
+        },
+        {
+          "type": "heading",
+          "text": "Kesimpulan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Menghadapi UAS memang bukan hal yang mudah, tetapi dengan persiapan yang matang dan strategi yang tepat, Anda bisa melewatinya dengan baik. Ingatlah bahwa tujuan utama dari belajar bukan hanya untuk mendapatkan nilai bagus, tetapi juga untuk memahami dan menguasai materi yang akan berguna dalam karir Anda di masa depan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Semoga tips di atas bermanfaat dan sukses untuk UAS Anda!"
+        }
+      ],
+      "tags": ["UAS", "Tips Belajar", "Manajemen Waktu", "Persiapan Ujian"]
+    },
+    {
+      "id": 2,
+      "title": "Perkembangan Kecerdasan Buatan di Indonesia",
+      "slug": "perkembangan-kecerdasan-buatan-di-indonesia",
+      "category": "Teknologi",
+      "date": "5 Mei 2023",
+      "readTime": "6 menit",
+      "thumbnail": "/placeholder.svg?height=400&width=800",
+      "author": "Nama Mahasiswa",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Melihat bagaimana perkembangan AI di Indonesia dan peluang karir di bidang ini untuk mahasiswa IT.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Kecerdasan Buatan atau Artificial Intelligence (AI) telah menjadi salah satu teknologi yang berkembang pesat di seluruh dunia, termasuk di Indonesia. Dalam beberapa tahun terakhir, Indonesia mulai menunjukkan kemajuan signifikan dalam adopsi dan pengembangan teknologi AI."
+        },
+        {
+          "type": "heading",
+          "text": "Perkembangan AI di Indonesia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indonesia telah menunjukkan komitmen untuk mengembangkan teknologi AI melalui berbagai inisiatif pemerintah dan swasta. Pemerintah Indonesia telah meluncurkan Strategi Nasional Kecerdasan Artifisial (SNKI) yang bertujuan untuk mempercepat transformasi digital dan mendorong inovasi di berbagai sektor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beberapa perusahaan teknologi lokal dan startup juga mulai mengembangkan solusi berbasis AI untuk mengatasi berbagai tantangan di Indonesia, mulai dari transportasi, kesehatan, pendidikan, hingga pertanian."
+        }
+      ],
+      "tags": ["Kecerdasan Buatan", "AI", "Teknologi", "Karir IT"]
+    },
+    {
+      "id": 3,
+      "title": "Magang di Startup: Pengalaman dan Pembelajaran",
+      "slug": "magang-di-startup-pengalaman-dan-pembelajaran",
+      "category": "Pengalaman",
+      "date": "28 April 2023",
+      "readTime": "4 menit",
+      "thumbnail": "/placeholder.svg?height=400&width=800",
+      "author": "Nama Mahasiswa",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Cerita pengalaman magang di sebuah startup teknologi dan pelajaran berharga yang didapat.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Magang di startup teknologi memberikan pengalaman yang sangat berbeda dibandingkan dengan magang di perusahaan besar. Sebagai mahasiswa Teknik Informatika di UDINUS, saya berkesempatan untuk magang di salah satu startup teknologi di Jakarta selama 3 bulan."
+        },
+        {
+          "type": "heading",
+          "text": "Mengapa Memilih Startup?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Banyak mahasiswa ragu untuk magang di startup karena berbagai alasan, seperti ketidakpastian, gaji yang mungkin lebih rendah, atau nama perusahaan yang belum terkenal. Namun, startup menawarkan pengalaman belajar yang tidak bisa didapatkan di perusahaan besar."
+        }
+      ],
+      "tags": ["Magang", "Startup", "Pengalaman Kerja", "Karir"]
+    },
+    {
+      "id": 4,
+      "title": "Pengalaman Mengikuti Kompetisi Hackathon Nasional",
+      "slug": "pengalaman-mengikuti-kompetisi-hackathon-nasional",
+      "category": "Kegiatan Kampus",
+      "date": "15 April 2023",
+      "readTime": "5 menit",
+      "thumbnail": "/placeholder.svg?height=400&width=800",
+      "author": "Nama Mahasiswa",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Berbagi pengalaman dan tips dalam mengikuti kompetisi hackathon tingkat nasional.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hackathon adalah kompetisi intensif di mana para programmer, desainer, dan profesional lainnya berkolaborasi untuk mengembangkan solusi inovatif dalam waktu yang terbatas. Sebagai mahasiswa UDINUS, saya bersama tim berpartisipasi dalam hackathon nasional yang diselenggarakan oleh salah satu perusahaan teknologi terkemuka."
+        }
+      ],
+      "tags": ["Hackathon", "Kompetisi", "Coding", "Teamwork"]
+    },
+    {
+      "id": 5,
+      "title": "Memilih Topik Skripsi yang Tepat untuk Jurusan IT",
+      "slug": "memilih-topik-skripsi-yang-tepat-untuk-jurusan-it",
+      "category": "Akademik",
+      "date": "2 April 2023",
+      "readTime": "7 menit",
+      "thumbnail": "/placeholder.svg?height=400&width=800",
+      "author": "Nama Mahasiswa",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Panduan dan tips dalam memilih topik skripsi yang sesuai dengan minat dan kemampuan.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Memilih topik skripsi adalah salah satu keputusan penting yang harus diambil oleh mahasiswa tingkat akhir. Bagi mahasiswa jurusan IT seperti di UDINUS, ada banyak pilihan topik yang bisa dieksplorasi, mulai dari pengembangan aplikasi, kecerdasan buatan, keamanan jaringan, hingga analisis data."
+        }
+      ],
+      "tags": ["Skripsi", "Tugas Akhir", "Penelitian", "Akademik"]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Akademik",
+      "count": 12
+    },
+    {
+      "id": 2,
+      "name": "Teknologi",
+      "count": 8
+    },
+    {
+      "id": 3,
+      "name": "Pengalaman",
+      "count": 5
+    },
+    {
+      "id": 4,
+      "name": "Kegiatan Kampus",
+      "count": 7
+    },
+    {
+      "id": 5,
+      "name": "Tips & Trik",
+      "count": 4
+    }
+  ],
+  "tags": [
+    "UAS",
+    "Tips Belajar",
+    "Manajemen Waktu",
+    "Persiapan Ujian",
+    "Kecerdasan Buatan",
+    "AI",
+    "Teknologi",
+    "Karir IT",
+    "Magang",
+    "Startup",
+    "Pengalaman Kerja",
+    "Karir",
+    "Hackathon",
+    "Kompetisi",
+    "Coding",
+    "Teamwork",
+    "Skripsi",
+    "Tugas Akhir",
+    "Penelitian",
+    "Akademik"
+  ]
+}

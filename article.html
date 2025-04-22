@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel - Blog Mahasiswa UDINUS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <img src="/placeholder.svg?height=40&width=40" alt="Logo UDINUS" class="h-10 w-10 mr-3">
+                <h1 class="text-xl font-bold">Blog Mahasiswa UDINUS</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-blue-200">Beranda</a></li>
+                    <li><a href="blog.html" class="hover:text-blue-200 font-medium">Blog</a></li>
+                    <li><a href="about.html" class="hover:text-blue-200">Tentang Saya</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-200">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- Main Content -->
+                <div class="lg:w-2/3">
+                    <div id="article-container" class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <!-- Article content will be loaded here -->
+                        <div class="flex justify-center items-center h-64 bg-gray-100">
+                            <p class="text-gray-500">Memuat artikel...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:w-1/3">
+                    <!-- Popular Posts -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h3 class="text-xl font-bold mb-4">Artikel Populer</h3>
+                        <div id="popular-posts" class="space-y-4">
+                            <!-- Popular posts will be loaded here -->
+                            <div class="flex items-center">
+                                <div class="w-16 h-16 bg-gray-200 rounded mr-4"></div>
+                                <div>
+                                    <div class="h-4 bg-gray-200 rounded w-32 mb-2"></div>
+                                    <div class="h-3 bg-gray-200 rounded w-24"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h3 class="text-xl font-bold mb-4">Kategori</h3>
+                        <ul id="categories-list" class="space-y-2">
+                            <!-- Categories will be loaded here -->
+                            <li class="flex justify-between items-center">
+                                <div class="h-4 bg-gray-200 rounded w-24"></div>
+                                <div class="h-4 bg-gray-200 rounded-full w-8"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold mb-4">Tag</h3>
+                        <div id="tags-container" class="flex flex-wrap gap-2">
+                            <!-- Tags will be loaded here -->
+                            <div class="h-6 bg-gray-200 rounded-full w-16"></div>
+                            <div class="h-6 bg-gray-200 rounded-full w-20"></div>
+                            <div class="h-6 bg-gray-200 rounded-full w-24"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Articles -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Artikel Terkait</h2>
+            <div id="related-articles" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Related articles will be loaded here -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-48 bg-gray-200"></div>
+                    <div class="p-6">
+                        <div class="h-4 bg-gray-200 rounded w-24 mb-3"></div>
+                        <div class="h-6 bg-gray-200 rounded w-full mb-4"></div>
+                        <div class="h-4 bg-gray-200 rounded w-full mb-2"></div>
+                        <div class="h-4 bg-gray-200 rounded w-3/4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Blog Mahasiswa UDINUS</h3>
+                    <p class="text-gray-400 max-w-md">Blog personal yang berisi pengalaman, pengetahuan, dan perjalanan sebagai mahasiswa Universitas Dian Nuswantoro.</p>
+                </div>
+                <div class="mb-6 md:mb-0">
+                    <h4 class="font-bold mb-4">Navigasi</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">Tentang Saya</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Kontak</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">Email: mahasiswa@dinus.ac.id</li>
+                        <li class="text-gray-400">Telepon: +62 123 4567 890</li>
+                        <li class="text-gray-400">Alamat: Jl. Imam Bonjol No.207, Semarang</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 Blog Mahasiswa UDINUS. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Function to load article data
+        async function loadArticleData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                
+                // Get article ID from URL
+                const articleId = parseInt(getUrlParameter('id')) || 1;
+                
+                // Find the article
+                const article = data.articles.find(a => a.id === articleId);
+                
+                if (article) {
+                    // Update page title
+                    document.title = article.title + ' - Blog Mahasiswa UDINUS';
+                    
+                    // Render article
+                    renderArticle(article);
+                    
+                    // Render popular posts
+                    renderPopularPosts(data.articles.slice(0, 4));
+                    
+                    // Render categories
+                    renderCategories(data.categories);
+                    
+                    // Render tags
+                    renderTags(data.tags.slice(0, 10));
+                    
+                    // Render related articles (excluding current article)
+                    const relatedArticles = data.articles
+                        .filter(a => a.id !== articleId)
+                        .slice(0, 3);
+                    renderRelatedArticles(relatedArticles);
+                } else {
+                    document.getElementById('article-container').innerHTML = `
+                        <div class="p-8 text-center">
+                            <h2 class="text-2xl font-bold mb-4">Artikel Tidak Ditemukan</h2>
+                            <p class="text-gray-600 mb-6">Maaf, artikel yang Anda cari tidak ditemukan.</p>
+                            <a href="blog.html" class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition duration-300">Kembali ke Blog</a>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('article-container').innerHTML = `
+                    <div class="p-8 text-center">
+                        <h2 class="text-2xl font-bold mb-4">Terjadi Kesalahan</h2>
+                        <p class="text-gray-600">Maaf, terjadi kesalahan saat memuat artikel. Silakan coba lagi nanti.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Function to render article
+        function renderArticle(article) {
+            let contentHTML = '';
+            
+            // Generate content HTML based on content structure
+            article.content.forEach(item => {
+                if (item.type === 'paragraph') {
+                    contentHTML += `<p class="mb-4">${item.text}</p>`;
+                } else if (item.type === 'heading') {
+                    contentHTML += `<h2 class="text-2xl font-bold mt-8 mb-4">${item.text}</h2>`;
+                } else if (item.type === 'list') {
+                    contentHTML += '<ul class="list-disc pl-6 mb-4">';
+                    item.items.forEach(listItem => {
+                        contentHTML += `<li class="mb-2">${listItem}</li>`;
+                    });
+                    contentHTML += '</ul>';
+                } else if (item.type === 'quote') {
+                    contentHTML += `
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+                            <p class="italic">${item.text}</p>
+                        </div>
+                    `;
+                }
+            });
+            
+            // Generate tags HTML
+            let tagsHTML = '';
+            article.tags.forEach(tag => {
+                tagsHTML += `<a href="blog.html?tag=${encodeURIComponent(tag)}" class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm hover:bg-blue-100 hover:text-blue-800">${tag}</a>`;
+            });
+            
+            // Render article HTML
+            document.getElementById('article-container').innerHTML = `
+                <img src="${article.thumbnail}" alt="${article.title}" class="w-full h-64 md:h-96 object-cover">
+                
+                <div class="p-8">
+                    <div class="flex items-center mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">${article.category}</span>
+                        <span class="text-gray-500 text-sm ml-4">${article.date}</span>
+                        <span class="text-gray-500 text-sm ml-4">Waktu baca: ${article.readTime}</span>
+                    </div>
+                    
+                    <h1 class="text-3xl font-bold mb-6">${article.title}</h1>
+                    
+                    <div class="flex items-center mb-8">
+                        <img src="${article.authorImage}" alt="Foto Penulis" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-medium">Ditulis oleh</p>
+                            <p class="text-blue-600">${article.author}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="prose max-w-none">
+                        ${contentHTML}
+                    </div>
+                    
+                    <!-- Tags -->
+                    <div class="mt-8">
+                        <div class="flex flex-wrap gap-2">
+                            ${tagsHTML}
+                        </div>
+                    </div>
+                    
+                    <!-- Share Buttons -->
+                    <div class="mt-8 border-t border-gray-200 pt-6">
+                        <h3 class="font-bold mb-4">Bagikan Artikel</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                                </svg>
+                                Twitter
+                            </a>
+                            <a href="#" class="bg-blue-800 text-white px-4 py-2 rounded-md hover:bg-blue-900 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                                </svg>
+                                Facebook
+                            </a>
+                            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                                </svg>
+                                WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to render popular posts
+        function renderPopularPosts(articles) {
+            let html = '';
+            
+            articles.forEach(article => {
+                html += `
+                    <div class="flex items-start">
+                        <img src="${article.thumbnail}" alt="Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                        <div>
+                            <h4 class="font-medium hover:text-blue-600"><a href="article.html?id=${article.id}">${article.title}</a></h4>
+                            <p class="text-gray-500 text-sm">${article.date}</p>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('popular-posts').innerHTML = html;
+        }
+
+        // Function to render categories
+        function renderCategories(categories) {
+            let html = '';
+            
+            categories.forEach(category => {
+                html += `
+                    <li class="flex justify-between items-center">
+                        <a href="blog.html?category=${encodeURIComponent(category.name)}" class="text-gray-700 hover:text-blue-600">${category.name}</a>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">${category.count}</span>
+                    </li>
+                `;
+            });
+            
+            document.getElementById('categories-list').innerHTML = html;
+        }
+
+        // Function to render tags
+        function renderTags(tags) {
+            let html = '';
+            
+            tags.forEach(tag => {
+                html += `<a href="blog.html?tag=${encodeURIComponent(tag)}" class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm hover:bg-blue-100 hover:text-blue-800">${tag}</a>`;
+            });
+            
+            document.getElementById('tags-container').innerHTML = html;
+        }
+
+        // Function to render related articles
+        function renderRelatedArticles(articles) {
+            let html = '';
+            
+            articles.forEach(article => {
+                html += `
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                        <img src="${article.thumbnail}" alt="${article.title}" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <span class="text-blue-600 text-sm font-medium">${article.category}</span>
+                            <h3 class="text-xl font-bold mt-2 mb-3"><a href="article.html?id=${article.id}" class="hover:text-blue-600">${article.title}</a></h3>
+                            <p class="text-gray-600 mb-4">${article.summary}</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-500 text-sm">${article.date}</span>
+                                <a href="article.html?id=${article.id}" class="text-blue-600 font-medium hover:text-blue-800">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('related-articles').innerHTML = html;
+        }
+
+        // Load article data when page loads
+        document.addEventListener('DOMContentLoaded', loadArticleData);
+    </script>
+</body>
+</html>
