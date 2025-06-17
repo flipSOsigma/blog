@@ -1,94 +1,321 @@
 {
   "articles": [
     {
-      "id": 1,
-      "title": "Tips Menghadapi Ujian Akhir Semester",
-      "slug": "tips-menghadapi-ujian-akhir-semester",
-      "category": "Akademik",
-      "date": "12 Mei 2023",
-      "readTime": "5 menit",
-      "thumbnail": "/placeholder.svg?height=400&width=800",
-      "author": "Nama Mahasiswa",
+      "id": 6,
+      "title": "Pertemuan 1: Interaksi dalam IMK",
+      "slug": "pertemuan-1-interaksi-dalam-imk",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "8 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
       "authorImage": "/placeholder.svg?height=50&width=50",
-      "summary": "Berbagi pengalaman dan strategi dalam menghadapi ujian akhir semester dengan persiapan yang matang.",
+      "summary": "Pembahasan dasar Interaksi Manusia dan Komputer (IMK): pengertian, komponen, jenis, dan pentingnya dalam desain antarmuka.",
       "content": [
         {
           "type": "paragraph",
-          "text": "Ujian Akhir Semester (UAS) merupakan momen yang cukup menegangkan bagi sebagian besar mahasiswa. Persiapan yang matang dan strategi yang tepat sangat diperlukan untuk menghadapi UAS dengan baik. Dalam artikel ini, saya akan berbagi beberapa tips yang telah saya terapkan dan terbukti efektif dalam menghadapi UAS di Universitas Dian Nuswantoro."
+          "text": "Interaksi dalam IMK adalah proses komunikasi antara manusia dan komputer melalui sarana seperti keyboard, layar sentuh, atau suara."
         },
         {
           "type": "heading",
-          "text": "1. Manajemen Waktu yang Efektif"
+          "text": "Komponen Utama IMK"
         },
         {
           "type": "paragraph",
-          "text": "Manajemen waktu adalah kunci utama dalam persiapan UAS. Buatlah jadwal belajar yang realistis dan konsisten. Alokasikan waktu untuk setiap mata kuliah berdasarkan tingkat kesulitan dan bobot materinya. Jangan lupa untuk menyisihkan waktu istirahat yang cukup agar otak tetap segar."
-        },
-        {
-          "type": "paragraph",
-          "text": "Saya biasanya membuat jadwal mingguan dengan alokasi 2-3 jam per hari untuk belajar, dengan fokus pada 1-2 mata kuliah setiap harinya. Metode ini membantu saya menghindari kewalahan dan memastikan semua mata kuliah mendapat perhatian yang cukup."
+          "text": "- Manusia (User): individu atau kelompok yang menggunakan sistem.\n- Komputer (Sistem): perangkat keras & lunak penerima input.\n- Interaksi: komunikasi langsung atau tidak langsung antara keduanya."
         },
         {
           "type": "heading",
-          "text": "2. Teknik Belajar yang Sesuai"
+          "text": "Skema IMK"
         },
         {
           "type": "paragraph",
-          "text": "Setiap orang memiliki gaya belajar yang berbeda. Ada yang lebih mudah memahami materi melalui visual, audio, atau praktik langsung. Kenali gaya belajar yang paling efektif untuk diri Anda dan terapkan dalam persiapan UAS."
+          "text": "Interaksi Manusia–Mesin + Teknologi Informasi = Interaksi Manusia–Komputer"
         },
         {
-          "type": "paragraph",
-          "text": "Beberapa teknik belajar yang bisa dicoba:"
+          "type": "heading",
+          "text": "Jenis-Jenis Interaksi"
         },
         {
           "type": "list",
           "items": [
-            "Membuat mind map untuk memvisualisasikan konsep dan hubungan antar materi",
-            "Merekam penjelasan dan mendengarkannya kembali",
-            "Mengajarkan materi kepada teman atau menjelaskannya pada diri sendiri",
-            "Mengerjakan latihan soal dan kasus",
-            "Membuat rangkuman dengan kata-kata sendiri"
+            "CLI – menggunakan teks/perintah (terminal)",
+            "GUI – elemen visual (jendela, ikon)",
+            "NUI – gerakan, suara, bahasa alami",
+            "TUI – objek fisik yang terhubung",
+            "BCI – kendali menggunakan gelombang otak"
           ]
         },
         {
           "type": "heading",
-          "text": "3. Belajar Kelompok yang Produktif"
+          "text": "Pentingnya IMK"
         },
         {
           "type": "paragraph",
-          "text": "Belajar kelompok bisa menjadi sangat efektif jika dilakukan dengan benar. Pilih teman yang memiliki komitmen dan tujuan yang sama. Tetapkan agenda yang jelas untuk setiap sesi belajar kelompok dan pastikan diskusi tetap fokus pada materi."
-        },
+          "text": "Dengan memahami interaksi, kita bisa merancang antarmuka yang sesuai kebutuhan dan preferensi pengguna – lebih intuitif, efisien, dan memuaskan."
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Interaksi",
+        "UI",
+        "UX"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pertemuan 2: Ragam Dialog dalam IMK",
+      "slug": "pertemuan-2-ragam-dialog-imk",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "7 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Penjelasan berbagai ragam dialog interaktif di IMK: dari CLI hingga antarmuka 3D.",
+      "content": [
         {
           "type": "paragraph",
-          "text": "Di UDINUS, saya dan beberapa teman sering memanfaatkan ruang diskusi di perpustakaan atau lab komputer untuk belajar bersama. Kami biasanya membagi tugas, di mana setiap orang mempelajari bagian tertentu dari materi dan kemudian menjelaskannya kepada yang lain."
-        },
-        {
-          "type": "quote",
-          "text": "Jangan menunda belajar hingga malam sebelum ujian. Persiapan yang konsisten jauh lebih efektif daripada sistem kebut semalam."
+          "text": "Ragam dialog adalah cara pengguna berkomunikasi dengan sistem melalui berbagai model interaksi."
         },
         {
           "type": "heading",
-          "text": "4. Jaga Kesehatan Fisik dan Mental"
+          "text": "Tujuan Ragam Dialog"
         },
         {
           "type": "paragraph",
-          "text": "Performa otak sangat dipengaruhi oleh kondisi fisik dan mental. Pastikan Anda mendapatkan istirahat yang cukup, makan makanan bergizi, dan tetap aktif secara fisik selama periode persiapan UAS."
-        },
-        {
-          "type": "paragraph",
-          "text": "Stres adalah hal yang wajar saat menghadapi ujian, tetapi jangan biarkan stres menguasai Anda. Luangkan waktu untuk melakukan aktivitas yang menyenangkan dan menenangkan pikiran, seperti olahraga, meditasi, atau sekadar mengobrol dengan teman."
+          "text": "Membuat antarmuka yang mudah digunakan (user‑friendly) dan memudahkan operasi program/aplikasi."
         },
         {
           "type": "heading",
-          "text": "5. Persiapan Hari H"
+          "text": "Jenis-Jenis Ragam Dialog"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CLI – perintah teks langsung",
+            "Menu Based – navigasi melalui menu pilihan",
+            "Natural Language – bahasa manusia (Siri, ChatGPT)",
+            "Query Interface – model tanya‑jawab",
+            "Form‑Fills – input data via formulir",
+            "WIMP – Window, Icon, Menu, Pointer",
+            "Point & Click – klik objek",
+            "3D Interface – antarmuka tiga dimensi"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Persiapkan semua yang diperlukan untuk ujian pada malam sebelumnya, seperti kartu ujian, alat tulis, dan kalkulator (jika diizinkan). Tidur yang cukup dan datang ke lokasi ujian lebih awal untuk menghindari kepanikan dan stres tambahan."
+          "text": "Setiap metode memiliki kelebihan & konteks penggunaan berbeda—CLI efisien untuk teknisi, GUI intuitif untuk pengguna umum, sedangkan NLI cocok untuk interaksi alami."
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Dialog",
+        "UX",
+        "User Interface"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Pertemuan 3: Daya Guna (Usability) dalam IMK",
+      "slug": "pertemuan-3-daya-guna-imk",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "9 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Mengurai konsep usability dalam IMK: prinsip, metode evaluasi, dan contoh implementasinya.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Usability adalah kemampuan sistem untuk digunakan secara efektif, efisien, dan memuaskan oleh pengguna."
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip-Prinsip Usability"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Efektivitas – mencapai tujuan dengan benar",
+            "Efisiensi – menyelesaikan tugas cepat dan mudah",
+            "Kepuasan – pengalaman pengguna nyaman",
+            "Kemudahan Dipelajari – cepat dikuasai pengguna baru",
+            "Kemudahan Diingat – mudah digunakan kembali"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Metode Evaluasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "User Testing – observasi interaksi nyata",
+            "Heuristic Evaluation – analisis berdasarkan prinsip usability",
+            "Survey & Wawancara – feedback langsung dari pengguna"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Implementasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Navigasi jelas dalam Google Search atau YouTube",
+            "Proses checkout sederhana di e‑commerce",
+            "Ikon & warna intuitif dalam aplikasi mobile"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Saat mengerjakan soal ujian, baca instruksi dengan teliti dan alokasikan waktu untuk setiap soal. Mulailah dengan soal yang Anda kuasai untuk membangun kepercayaan diri, kemudian lanjutkan ke soal yang lebih menantang."
+          "text": "Usability yang baik meningkatkan produktivitas dan mengurangi frustrasi, sehingga harus jadi fokus utama desain antarmuka."
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Usability",
+        "UX",
+        "Evaluasi"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Pertemuan 4: Prinsip Dasar Desain Interaksi",
+      "slug": "pertemuan-4-prinsip-desain-interaksi",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "10 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Mengulas prinsip desain interaksi agar antarmuka menjadi intuitif, konsisten, dan memuaskan pengguna.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Desain interaksi fokus pada bagaimana pengguna dan teknologi berkomunikasi untuk menciptakan pengalaman yang menyenangkan dan efisien."
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip-Prinsip Dasar"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Konsistensi – tampilan & fungsi seragam",
+            "Affordance – elemen memberi petunjuk penggunaan",
+            "Feedback – sistem merespons aksi pengguna",
+            "Kontrol & Kebebasan – bisa undo atau memperbaiki kesalahan",
+            "Efisiensi – shortcut, autofill, tanpa kebingungan",
+            "Fleksibilitas & Aksesibilitas – termasuk aksesibilitas khusus",
+            "Pencegahan Kesalahan – validasi input pengguna",
+            "Visibilitas & Keterbacaan – kontras warna jelas, tipografi baik"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dengan menerapkan prinsip-prinsip ini, pengembang akan menciptakan antarmuka yang lebih mudah digunakan, efisien, dan meningkatkan kepuasan pengguna."
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Desain Interaksi",
+        "UX",
+        "UI"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Pertemuan 4: Komputer dalam IMK",
+      "slug": "pertemuan-4-komputer-dalam-imk",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "12 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Materi lengkap tentang peran komputer dalam Interaksi Manusia dan Komputer: komponen, input/output, dan keterbatasan kinerja.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Komputer adalah sistem elektronik yang dirancang untuk memanipulasi data dengan cepat dan tepat, serta menjadi elemen kunci dalam IMK."
+        },
+        {
+          "type": "heading",
+          "text": "Definisi & Fungsi Komputer"
+        },
+        {
+          "type": "paragraph",
+          "text": "- Menerima input\n- Memproses data\n- Menyimpan instruksi & hasil\n- Menghasilkan output\n- Bekerja otomatis berdasarkan program."
+        },
+        {
+          "type": "heading",
+          "text": "Komponen Utama"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Input Device: Keyboard (QWERTY, Dvorak), mouse, touchscreen, scanner.",
+            "Output Device: Monitor (CRT, LCD), printer, speaker.",
+            "Memory: RAM (jangka pendek), harddisk/CD (jangka panjang).",
+            "Processing: CPU dengan kecepatan tinggi."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Perangkat Masukan Teks"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Keyboard: QWERTY, Alphabetic, Dvorak, Chord.",
+            "Teknologi Alternatif: Handwriting Recognition, Speech Recognition."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Perangkat Penunjuk"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mouse (mekanis/optik), Trackball, Joystick.",
+            "Touchpad (laptop), Touchscreen (langsung tapi kurang presisi)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Perangkat Keluaran"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monitor: CRT, LCD, LED, Plasma.",
+            "Printer: Dot-matrix, Inkjet, Laser (resolusi dpi).",
+            "Font: Serif vs Sans-serif, ukuran point (pt)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Penyimpanan Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "- RAM: Cepat, volatil.\n- Disk: Magnetik (harddisk), Optik (CD/DVD), Flash Memory (USB).\n- Kompresi: Lossless (ZIP) atau Lossy (JPEG)."
+        },
+        {
+          "type": "heading",
+          "text": "Keterbatasan Kinerja"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Perhitungan: Proses lambat menyebabkan frustrasi.",
+            "Penyimpanan: Bottleneck transfer data.",
+            "Jaringan: Latensi dan konflik akses."
+          ]
         },
         {
           "type": "heading",
@@ -96,110 +323,900 @@
         },
         {
           "type": "paragraph",
-          "text": "Menghadapi UAS memang bukan hal yang mudah, tetapi dengan persiapan yang matang dan strategi yang tepat, Anda bisa melewatinya dengan baik. Ingatlah bahwa tujuan utama dari belajar bukan hanya untuk mendapatkan nilai bagus, tetapi juga untuk memahami dan menguasai materi yang akan berguna dalam karir Anda di masa depan."
-        },
-        {
-          "type": "paragraph",
-          "text": "Semoga tips di atas bermanfaat dan sukses untuk UAS Anda!"
+          "text": "Desain antarmuka harus mempertimbangkan keterbatasan teknis komputer dan kebutuhan pengguna untuk interaksi yang efisien."
         }
       ],
-      "tags": ["UAS", "Tips Belajar", "Manajemen Waktu", "Persiapan Ujian"]
+      "tags": [
+        "IMK",
+        "Komputer",
+        "Input Device",
+        "Output Device",
+        "Memory"
+      ]
     },
     {
-      "id": 2,
-      "title": "Perkembangan Kecerdasan Buatan di Indonesia",
-      "slug": "perkembangan-kecerdasan-buatan-di-indonesia",
-      "category": "Teknologi",
-      "date": "5 Mei 2023",
-      "readTime": "6 menit",
-      "thumbnail": "/placeholder.svg?height=400&width=800",
-      "author": "Nama Mahasiswa",
+      "id": 11,
+      "title": "Pertemuan 5: Konsep Dasar Interaksi dalam IMK",
+      "slug": "pertemuan-5-konsep-interaksi-imk",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "10 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
       "authorImage": "/placeholder.svg?height=50&width=50",
-      "summary": "Melihat bagaimana perkembangan AI di Indonesia dan peluang karir di bidang ini untuk mahasiswa IT.",
+      "summary": "Materi lengkap tentang konsep interaksi dalam IMK: terminologi, siklus interaksi Norman, Gulf of Execution/Evaluation, dan kerangka kerja.",
       "content": [
         {
           "type": "paragraph",
-          "text": "Kecerdasan Buatan atau Artificial Intelligence (AI) telah menjadi salah satu teknologi yang berkembang pesat di seluruh dunia, termasuk di Indonesia. Dalam beberapa tahun terakhir, Indonesia mulai menunjukkan kemajuan signifikan dalam adopsi dan pengembangan teknologi AI."
+          "text": "Interaksi adalah komunikasi antara user dan sistem melalui antarmuka, dipengaruhi oleh konteks sosial dan organisasi."
         },
         {
           "type": "heading",
-          "text": "Perkembangan AI di Indonesia"
+          "text": "Level Interaksi"
         },
         {
-          "type": "paragraph",
-          "text": "Indonesia telah menunjukkan komitmen untuk mengembangkan teknologi AI melalui berbagai inisiatif pemerintah dan swasta. Pemerintah Indonesia telah meluncurkan Strategi Nasional Kecerdasan Artifisial (SNKI) yang bertujuan untuk mempercepat transformasi digital dan mendorong inovasi di berbagai sektor."
-        },
-        {
-          "type": "paragraph",
-          "text": "Beberapa perusahaan teknologi lokal dan startup juga mulai mengembangkan solusi berbasis AI untuk mengatasi berbagai tantangan di Indonesia, mulai dari transportasi, kesehatan, pendidikan, hingga pertanian."
-        }
-      ],
-      "tags": ["Kecerdasan Buatan", "AI", "Teknologi", "Karir IT"]
-    },
-    {
-      "id": 3,
-      "title": "Magang di Startup: Pengalaman dan Pembelajaran",
-      "slug": "magang-di-startup-pengalaman-dan-pembelajaran",
-      "category": "Pengalaman",
-      "date": "28 April 2023",
-      "readTime": "4 menit",
-      "thumbnail": "/placeholder.svg?height=400&width=800",
-      "author": "Nama Mahasiswa",
-      "authorImage": "/placeholder.svg?height=50&width=50",
-      "summary": "Cerita pengalaman magang di sebuah startup teknologi dan pelajaran berharga yang didapat.",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Magang di startup teknologi memberikan pengalaman yang sangat berbeda dibandingkan dengan magang di perusahaan besar. Sebagai mahasiswa Teknik Informatika di UDINUS, saya berkesempatan untuk magang di salah satu startup teknologi di Jakarta selama 3 bulan."
+          "type": "list",
+          "items": [
+            "Task Level: Goal user dan representasi domain komputer",
+            "Dialog Level: Bahasa (user vs sistem)",
+            "Input/Output Level: Perangkat fisik (keyboard, layar)"
+          ]
         },
         {
           "type": "heading",
-          "text": "Mengapa Memilih Startup?"
+          "text": "Terminologi Interaksi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Domain: Area keahlian dunia nyata",
+            "Goal: Hasil yang diinginkan",
+            "Task: Operasi untuk mencapai goal",
+            "Task Analysis: Identifikasi masalah terkait domain"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Siklus Interaksi Norman"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Menetapkan tujuan",
+            "2. Membentuk intention",
+            "3. Merancang aksi",
+            "4. Mengeksekusi aksi",
+            "5. Mengevaluasi kondisi sistem"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Desain antarmuka yang baik harus meminimalisir Gulf of Execution (kesenjangan aksi) dan Gulf of Evaluation (kesenjangan interpretasi)."
+        },
+        {
+          "type": "heading",
+          "text": "Kerangka Kerja Interaksi"
         },
         {
           "type": "paragraph",
-          "text": "Banyak mahasiswa ragu untuk magang di startup karena berbagai alasan, seperti ketidakpastian, gaji yang mungkin lebih rendah, atau nama perusahaan yang belum terkenal. Namun, startup menawarkan pengalaman belajar yang tidak bisa didapatkan di perusahaan besar."
+          "text": "Terdiri dari 4 komponen dengan terjemahan antar bahasa:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "User → Intention",
+            "Input → Aksi antarmuka",
+            "System → Perubahan status",
+            "Output → Interpretasi user"
+          ]
         }
       ],
-      "tags": ["Magang", "Startup", "Pengalaman Kerja", "Karir"]
+      "tags": [
+        "IMK",
+        "Interaksi",
+        "Siklus Norman",
+        "Gulf of Execution",
+        "Kerangka Kerja"
+      ]
     },
     {
-      "id": 4,
-      "title": "Pengalaman Mengikuti Kompetisi Hackathon Nasional",
-      "slug": "pengalaman-mengikuti-kompetisi-hackathon-nasional",
-      "category": "Kegiatan Kampus",
-      "date": "15 April 2023",
-      "readTime": "5 menit",
-      "thumbnail": "/placeholder.svg?height=400&width=800",
-      "author": "Nama Mahasiswa",
+      "id": 12,
+      "title": "Pertemuan 6: Ragam Dialog dan Gaya Interaksi",
+      "slug": "pertemuan-6-ragam-dialog-interaksi",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "12 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
       "authorImage": "/placeholder.svg?height=50&width=50",
-      "summary": "Berbagi pengalaman dan tips dalam mengikuti kompetisi hackathon tingkat nasional.",
+      "summary": "Materi lengkap tentang evolusi ragam dialog dalam IMK: dari CLI hingga antarmuka masa depan seperti VR dan speech recognition.",
       "content": [
         {
           "type": "paragraph",
-          "text": "Hackathon adalah kompetisi intensif di mana para programmer, desainer, dan profesional lainnya berkolaborasi untuk mengembangkan solusi inovatif dalam waktu yang terbatas. Sebagai mahasiswa UDINUS, saya bersama tim berpartisipasi dalam hackathon nasional yang diselenggarakan oleh salah satu perusahaan teknologi terkemuka."
+          "text": "Ragam dialog adalah gaya interaksi antara user dan sistem yang terus berevolusi seiring perkembangan teknologi."
+        },
+        {
+          "type": "heading",
+          "text": "5 Generasi Antarmuka"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Batch Processing: Input berkelompok (low usability)",
+            "2. Command Line Interface (CLI): Perintah teks (e.g., UNIX, DOS)",
+            "3. Full Screen: Form-based (e.g., data entry systems)",
+            "4. Graphical User Interface (GUI): WIMP (Windows, Icons, Menus, Pointer)",
+            "5. Future Interfaces: VR, speech, embodied interaction"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Jenis Ragam Dialog"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Command Line: Cepat tapi beban ingatan tinggi (e.g., Linux terminal)",
+            "Natural Language: Alami tapi ambigu (e.g., Siri, ChatGPT)",
+            "Form-Fills: Untuk input data terstruktur",
+            "WIMP: Standar desktop modern (window, icon, menu)",
+            "3D Interfaces: Virtual Reality dan augmented reality"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Element WIMP"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Windows: Area kerja utama",
+            "Icons: Representasi visual objek",
+            "Menus: Hierarkis (dropdown, pie menus)",
+            "Pointers: Mouse/touch interaction"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Antarmuka masa depan mengintegrasikan sensor, AI, dan interaksi alami (suara/gerak) untuk pengalaman lebih imersif."
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Antarmuka Masa Depan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Embodied Interaction: Gerakan tubuh (e.g., Microsoft Kinect)",
+            "3D Virtual Reality: Headset VR (e.g., Oculus Rift)",
+            "Speech-Driven: Pengenalan suara canggih (e.g., Amazon Alexa)",
+            "Cyborg: Integrasi manusia-mesin"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip Ergonomi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Desain antarmuka harus mempertimbangkan:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fisik: Postur, pencahayaan, pengurangan kelelahan",
+            "Kognitif: Standarisasi, umpan balik cepat, redundansi visual"
+          ]
         }
       ],
-      "tags": ["Hackathon", "Kompetisi", "Coding", "Teamwork"]
+      "tags": [
+        "IMK",
+        "Ragam Dialog",
+        "CLI",
+        "GUI",
+        "WIMP",
+        "Virtual Reality",
+        "Ergonomi"
+      ]
     },
     {
-      "id": 5,
-      "title": "Memilih Topik Skripsi yang Tepat untuk Jurusan IT",
-      "slug": "memilih-topik-skripsi-yang-tepat-untuk-jurusan-it",
-      "category": "Akademik",
-      "date": "2 April 2023",
-      "readTime": "7 menit",
-      "thumbnail": "/placeholder.svg?height=400&width=800",
-      "author": "Nama Mahasiswa",
+      "id": 13,
+      "title": "Pertemuan 7: Prinsip Daya Guna (Usability) dalam IMK",
+      "slug": "pertemuan-7-prinsip-daya-guna",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "15 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
       "authorImage": "/placeholder.svg?height=50&width=50",
-      "summary": "Panduan dan tips dalam memilih topik skripsi yang sesuai dengan minat dan kemampuan.",
+      "summary": "Materi komprehensif tentang daya guna sistem: definisi ISO, 10 prinsip heuristik Nielsen, metode pengukuran, dan siklus hidup pengembangan berbasis usability.",
       "content": [
         {
           "type": "paragraph",
-          "text": "Memilih topik skripsi adalah salah satu keputusan penting yang harus diambil oleh mahasiswa tingkat akhir. Bagi mahasiswa jurusan IT seperti di UDINUS, ada banyak pilihan topik yang bisa dieksplorasi, mulai dari pengembangan aplikasi, kecerdasan buatan, keamanan jaringan, hingga analisis data."
+          "text": "Daya guna (usability) adalah tingkat di mana produk dapat digunakan oleh pengguna untuk mencapai tujuan secara efektif, efisien, dan memuaskan (ISO 1998)."
+        },
+        {
+          "type": "heading",
+          "text": "Tiga Pilar Daya Guna"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Efektivitas: Ketelitian pencapaian tujuan",
+            "Efisiensi: Sumber daya yang digunakan",
+            "Kepuasan: Kenyamanan pengguna"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "10 Prinsip Heuristik Nielsen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Visibilitas Status Sistem (Feedback)",
+            "2. Kesesuaian dengan Dunia Nyata (Bahasa user)",
+            "3. Kontrol dan Kebebasan User (Undo功能)",
+            "4. Konsistensi dan Standar",
+            "5. Pencegahan Kesalahan",
+            "6. Pengakuan > Mengingat (Minim beban kognitif)",
+            "7. Fleksibilitas dan Efisiensi (Shortcut)",
+            "8. Desain Minimalis (Hindari irrelevansi)",
+            "9. Bantuan Diagnosis Kesalahan",
+            "10. Dokumentasi yang Mudah Dicari"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Metode Pengukuran"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Learnability: Kemudahan pembelajaran sistem baru",
+            "Efficiency: Kecepatan penyelesaian tugas",
+            "Memorability: Kemudahan mengingat setelah periode tidak digunakan",
+            "Error Rate: Jumlah kesalahan pengguna",
+            "Satisfaction: Skala kenyamanan (kuisioner)"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Sistem dengan usability tinggi mengurangi biaya pelatihan 30% dan meningkatkan produktivitas pengguna hingga 40% (Nielsen, 2000)."
+        },
+        {
+          "type": "heading",
+          "text": "Siklus Hidup Pengembangan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Kenali Pengguna: Observasi & wawancara",
+            "2. Benchmarking: Analisis produk kompetitif",
+            "3. Desain Berorientasi Tujuan: Fokus pada 'why' bukan 'how'",
+            "4. Prototyping: Sketsa → Wireframe → Mockup",
+            "5. Evaluasi: Testing dengan user nyata",
+            "6. Follow-Up: Analisis feedback pasca-implementasi"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Penerapan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Form Validation: Pesan error spesifik di field salah",
+            "Breadcrumb Navigation: Memudahkan orientasi user",
+            "Progress Indicator: Untuk proses panjang (e.g., checkout)"
+          ]
         }
       ],
-      "tags": ["Skripsi", "Tugas Akhir", "Penelitian", "Akademik"]
+      "tags": [
+        "IMK",
+        "Usability",
+        "Heuristik Nielsen",
+        "UX Design",
+        "Evaluasi Sistem",
+        "User Research"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Pertemuan 8: Prinsip Dasar Desain Interaksi",
+      "slug": "pertemuan-8-prinsip-desain-interaksi",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "14 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Panduan komprehensif tentang prinsip desain interaksi: aturan emas Schneiderman, kompatibilitas pengguna, teknik persona, dan prinsip tata letak visual.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Desain interaksi yang baik memerlukan pemahaman mendalam tentang kebutuhan pengguna dan penerapan prinsip-prinsip yang teruji."
+        },
+        {
+          "type": "heading",
+          "text": "3 Kerangka Prinsip Desain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Eight Golden Rules of Dialog Design (Ben Shneiderman)",
+            "2. General Principles of UI Design (Deborah J. Mayhew)",
+            "3. Design Principles for Tomorrow (IBM)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Eight Golden Rules (Schneiderman)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Konsistensi: Pola interaksi seragam",
+            "Shortcut: Akses cepat untuk expert users",
+            "Feedback: Respons sistem yang informatif",
+            "Dialog Tertutup: Alur tugas yang jelas",
+            "Penanganan Error: Pesan kesalahan solutif",
+            "Undo: Kemampuan membatalkan aksi",
+            "Kontrol User: Pengguna merasa memegang kendali",
+            "Reduksi Beban Memori: Minimalkan recall, maksimalkan recognition"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip Kompatibilitas (Mayhew)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "User Compatibility: Sesuai karakteristik pengguna",
+            "Product Compatibility: Konsisten dengan produk sejenis",
+            "WYSIWYG: What You See Is What You Get",
+            "Direct Manipulation: Interaksi intuitif dengan objek"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Desain terbaik muncul ketika Anda merancang untuk persona spesifik, bukan 'rata-rata pengguna' (Alan Cooper)"
+        },
+        {
+          "type": "heading",
+          "text": "Teknik Persona"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Primary Persona: Target utama desain",
+            "Secondary Persona: Kebutuhan tambahan",
+            "Contoh Kasus: Inflight Entertainment System di pesawat",
+            "Metode Pengembangan: Observasi → Brainstorming → Validasi"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip Tata Letak Visual"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alignment: Rata kiri untuk teks, decimal untuk angka",
+            "Grouping: Pengelompokan logis dengan whitespace/box",
+            "Affordance: Bentuk visual yang menyiratkan fungsi",
+            "Color: Hindari penggunaan berlebihan (aksesibilitas)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Proses Desain Interaktif"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analisis Kebutuhan: Wawancara & observasi",
+            "Prototyping: Sketsa → Wireframe → Mockup",
+            "Evaluasi: Testing dengan persona nyata",
+            "Iterasi: Perbaikan berkelanjutan"
+          ]
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Desain Interaksi",
+        "Schneiderman",
+        "UI Principles",
+        "Persona",
+        "Visual Layout"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Pertemuan 9: Desain dan Notasi Dialog dalam IMK",
+      "slug": "pertemuan-9-desain-notasi-dialog",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "12 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Materi lengkap tentang teknik desain dialog dan notasi formal untuk spesifikasi interaksi sistem, mencakup diagram state transition hingga notasi tekstual BNF.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dialog dalam IMK merujuk pada struktur percakapan sintaksis antara user dan sistem komputer, yang memerlukan notasi formal untuk analisis dan implementasi."
+        },
+        {
+          "type": "heading",
+          "text": "Tiga Level Bahasa Dialog"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Leksikal: Tombol, ikon (e.g., klik mouse)",
+            "Sintaksis: Urutan input/output (e.g., alur menu)",
+            "Semantik: Makna aksi terhadap data/system"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Jenis Notasi Dialog"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Diagramatik: State Transition Network (STN), Flowchart",
+            "Tekstual: BNF (Backus-Naur Form), Regular Expression"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "State Transition Network (STN)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lingkaran: State sistem (e.g., 'menu utama')",
+            "Panah: Transisi dengan label aksi/respons",
+            "Contoh: Diagram tool gambar dengan state 'circle-1', 'circle-2'"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "STN memungkinkan visualisasi jelas untuk dialog sederhana, tapi kurang efektif untuk sistem kompleks dengan concurrency."
+        },
+        {
+          "type": "heading",
+          "text": "Notasi Lanjutan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hierarchical STN: Gabungan subdialog (e.g., composite state)",
+            "Harel's State Charts: Dukung concurrency dan hirarki",
+            "Flowchart: Perspektif programmer (kurang user-centric)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Notasi Tekstual"
+        },
+        {
+          "type": "list",
+          "items": [
+            "BNF: Spesifikasi grammar dialog (e.g., Login → get-name → Passwd)",
+            "Production Rules: 'if condition then action' untuk event-based system"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Properti Aksi Dialog"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kelengkapan: Antisipasi semua skenario (termasuk error)",
+            "Deterministik: Transisi state yang jelas",
+            "Konsistensi: Pola aksi seragam (e.g., tombol 'Tab' selalu navigasi)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Penerapan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sistem Perpustakaan: Modul pemesanan buku dengan STN",
+            "Drawing Tool: Alur 'Circle' dan 'Line' dalam diagram state"
+          ]
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Desain Dialog",
+        "State Transition",
+        "BNF",
+        "Sintaksis Interaksi",
+        "Diagram Alir"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Pertemuan 10: Presentasi Properti Leksikal",
+      "slug": "pertemuan-10-presentasi-properti-leksikal",
+      "category": "IMK",
+      "date": "15 Juni 2025",
+      "readTime": "15 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Prinsip desain pesan kesalahan dan properti leksikal antarmuka, termasuk tipe kesalahan pengguna, format visual, dan penggunaan warna.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Desain presentasi dan properti leksikal harus terpisah dari desain dialog, dengan fokus pada kejelasan visual dan interaksi."
+        },
+        {
+          "type": "heading",
+          "text": "Pesan Kesalahan yang Efektif"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hindari pesan generik (contoh: 'SYNTAX ERROR')",
+            "Gunakan bahasa spesifik (contoh: 'FILES NAMES MUST BEGIN WITH A LETTER')",
+            "Format fisik: Kombinasi huruf besar/kecil, dekat dengan sumber masalah"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Pesan kesalahan konstruktif harus menunjukkan solusi, bukan menyalahkan pengguna."
+        },
+        {
+          "type": "heading",
+          "text": "Tipe Kesalahan Pengguna"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mistakes: Keputusan salah (contoh: menghapus file penting)",
+            "Slips: Aksi tak disengaja (contoh: salah ketik)",
+            "Mode Error: Lupa konteks sistem (contoh: salah mode editor)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prinsip Desain Nonantropomorfik"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hindari atribusi sifat manusia ke komputer",
+            "Gunakan kalimat berpusat pada pengguna (contoh: 'Press RETURN to continue')",
+            "Fokus pada tindakan, bukan persona sistem"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Rancangan Tampilan Visual"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Konsistensi format antarmuka",
+            "Pengelompokan logis dengan spasi",
+            "Label jelas dan dekat dengan field terkait",
+            "Judul singkat untuk setiap halaman"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pedoman Penggunaan Warna"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gunakan maksimal 4-5 warna dominan",
+            "Kode warna untuk kategori data penting",
+            "Desain awalnya dalam monokrom",
+            "Hindari kombin warna menyakitkan mata"
+          ]
+        },
+        {
+          "type": "code",
+          "text": "Contoh Pesan Error Baik vs Buruk:\nBuruk: 'ILLEGAL ENTRY'\nBaik: 'Enter 1-31 for day field'"
+        },
+        {
+          "type": "heading",
+          "text": "Proses Pengembangan Pesan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Simpan semua pesan dalam file terpusat",
+            "Uji penerimaan dengan pengguna nyata",
+            "Kaji ulang pesan secara berkala"
+          ]
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Desain Pesan Error",
+        "Properti Leksikal",
+        "Antarmuka Nonantropomorfik",
+        "Psikologi Warna",
+        "UX Writing"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pertemuan 11: Model Pengguna (Kognitif)",
+      "slug": "pertemuan-11-model-pengguna-kognitif",
+      "category": "IMK",
+      "date": "17 Juni 2025",
+      "readTime": "12 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Pemodelan kognitif pengguna untuk memprediksi interaksi dengan antarmuka, mencakup MHP, GOMS, dan KLM.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Model kognitif membantu memahami bagaimana pengguna memproses informasi dan berinteraksi dengan sistem."
+        },
+        {
+          "type": "heading",
+          "text": "Model Human Processor (MHP)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Konsep: Manusia sebagai sistem pemrosesan informasi (Card, Moran, Newell, 1980).",
+            "Subsistem: Persepsi (input sensorik), Kognitif (pengambilan keputusan), Motorik (aksi fisik).",
+            "Prinsip Operasi: Tahapan diskrit dengan waktu spesifik (contoh: persepsi → kognitif → motorik)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "GOMS (Goals, Operators, Methods, Selection)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Goal: Tujuan akhir (contoh: 'Save Document').",
+            "Operator: Aksi dasar (klik, ketik).",
+            "Methods: Urutan operator untuk mencapai tujuan.",
+            "Selection Rules: Pemilihan metode efisien (contoh: shortcut untuk pengguna ahli)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Analisis GOMS mengungkap struktur tugas dan kebutuhan memori pengguna (Card, Moran, Newell)."
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Analisis GOMS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tugas: Membuat dokumen Word."
+        },
+        {
+          "type": "code",
+          "text": "GOAL: CREATE-WORD-DOC\n  ├─ Sub-goal: Set Font → Operator: Klik menu Font\n  ├─ Sub-goal: Save → Operator: CTRL+S\n  └─ Sub-goal: Print → Operator: Klik ikon Print"
+        },
+        {
+          "type": "heading",
+          "text": "Keystroke Level Model (KLM)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fokus: Prediksi waktu tugas interaktif sederhana (<20 detik).",
+            "Komponen: K (Keystroke), B (Button), P (Pointing), M (Mental).",
+            "Rumus: Total Waktu = TK + TB + TP + TH + TM."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Contoh KLM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tugas: Edit Karakter."
+        },
+        {
+          "type": "code",
+          "text": "1. H [hand to mouse]\n2. PB [point + klik]\n3. MK [mental + tekan DELETE]\n4. K [ketik huruf baru]"
+        },
+        {
+          "type": "heading",
+          "text": "Kesimpulan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "MHP: Dasar pemrosesan informasi pengguna.",
+            "GOMS: Dekomposisi tugas kompleks.",
+            "KLM: Optimasi waktu interaksi."
+          ]
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Model Kognitif",
+        "MHP",
+        "GOMS",
+        "KLM",
+        "Interaksi Manusia-Komputer"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Pertemuan 12: Teknik Evaluasi",
+      "slug": "pertemuan-12-teknik-evaluasi",
+      "category": "IMK",
+      "date": "20 Juni 2025",
+      "readTime": "16 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Panduan komprehensif tentang paradigma dan teknik evaluasi antarmuka pengguna, termasuk usability testing, studi lapangan, dan evaluasi prediktif.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Evaluasi diperlukan untuk memastikan produk dapat digunakan dan disukai pengguna, bukan hanya mengandalkan asumsi desainer."
+        },
+        {
+          "type": "heading",
+          "text": "Waktu Evaluasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Formative Evaluations: Selama pengembangan produk",
+            "Prototype Testing: Saat produk dalam versi percobaan",
+            "Post-Market Evaluation: Melalui update versi dan riset pasar"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Paradigma Evaluasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Quick and Dirty: Umpan balik informal cepat",
+            "Usability Testing: Pengukuran kinerja pengguna di lab (contoh: rekam video, kuesioner)",
+            "Field Studies: Observasi di lingkungan kerja nyata",
+            "Predictive Evaluation: Prediksi ahli tanpa melibatkan pengguna"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Usability testing tahun 1980-an mengukur jumlah kesalahan dan waktu penyelesaian tugas sebagai indikator utama."
+        },
+        {
+          "type": "heading",
+          "text": "Teknik Evaluasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Observing Users: Studi perilaku langsung",
+            "Asking Users: Wawancara dan kuesioner",
+            "Expert Review: Analisis oleh ahli UX",
+            "Task Performance Modeling: Prediksi efikasi pengguna"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Skala Likert"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skala psikometrik untuk mengukur persetujuan (biasanya 5-7 poin):"
+        },
+        {
+          "type": "code",
+          "text": "Contoh Skala 5 Poin:\n1 = Sangat Tidak Setuju\n2 = Tidak Setuju\n3 = Netral\n4 = Setuju\n5 = Sangat Setuju"
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Evaluasi Usability",
+        "Usability Testing",
+        "Field Studies",
+        "Skala Likert",
+        "UX Research"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Pertemuan 13: Ukuran Kepuasan Pengguna",
+      "slug": "pertemuan-13-ukuran-kepuasan-pengguna",
+      "category": "IMK",
+      "date": "24 Juni 2025",
+      "readTime": "18 menit",
+      "thumbnail": "https://dummyimage.com/800x400/fff/eaeaea",
+      "author": "Naufal Alif Mahendra",
+      "authorImage": "/placeholder.svg?height=50&width=50",
+      "summary": "Metode pengukuran kepuasan pengguna melalui kuesioner seperti SUS, UMUX, dan Task Level Satisfaction dengan analisis kuantitatif.",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Kepuasan pengguna diukur secara subjektif melalui kuesioner, berbeda dengan metrik efisiensi yang bersifat objektif."
+        },
+        {
+          "type": "heading",
+          "text": "Alat Pengukuran"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Skala Likert: Mengukur tingkat persetujuan (5-7 poin)",
+            "Task Level Satisfaction: SEQ (Single Ease Question) pasca-tugas",
+            "System Usability Scale (SUS): 10 item pertanyaan dengan skala 1-5",
+            "UMUX: 4 item dengan skala Likert 7 poin"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Contoh Perhitungan SUS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rumus konversi nilai SUS:"
+        },
+        {
+          "type": "code",
+          "text": "Pertanyaan Ganjil: x = p(n) - 1\nPertanyaan Genap: x = 5 - p(n)\nTotal SUS = (Σganjil + Σgenap) × 2.5\n\nContoh:\nNilai SUS 87.5 = 'Excellent' (Grade B)"
+        },
+        {
+          "type": "quote",
+          "text": "SUS yang telah digunakan 25 tahun memberikan hasil cepat dengan biaya rendah (Brooke, 1996)."
+        },
+        {
+          "type": "heading",
+          "text": "Interpretasi Nilai SUS"
+        },
+        {
+          "type": "list",
+          "items": [
+            ">80.3: 'Excellent' (Grade A)",
+            "68-80.3: 'Good' (Grade B-C)",
+            "<51: 'Poor' (Grade F)",
+            "Rata-rata industri: 68"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Studi Kasus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perbandingan dua versi antarmuka:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tampilan Awal: SUS 74.95 (Good)",
+            "Redesain: SUS 70.30 (Good)",
+            "Kedua versi masuk kategori 'Acceptable'"
+          ]
+        }
+      ],
+      "tags": [
+        "IMK",
+        "Kepuasan Pengguna",
+        "SUS Questionnaire",
+        "UMUX",
+        "Skala Likert",
+        "UX Metrics"
+      ]
     }
   ],
   "categories": [
@@ -227,28 +1244,24 @@
       "id": 5,
       "name": "Tips & Trik",
       "count": 4
+    },
+    {
+      "id": 6,
+      "name": "IMK",
+      "count": 5
     }
   ],
   "tags": [
-    "UAS",
-    "Tips Belajar",
-    "Manajemen Waktu",
-    "Persiapan Ujian",
-    "Kecerdasan Buatan",
-    "AI",
-    "Teknologi",
-    "Karir IT",
-    "Magang",
-    "Startup",
-    "Pengalaman Kerja",
-    "Karir",
-    "Hackathon",
-    "Kompetisi",
-    "Coding",
-    "Teamwork",
-    "Skripsi",
-    "Tugas Akhir",
-    "Penelitian",
-    "Akademik"
+    "IMK",
+    "Interaksi",
+    "Dialog",
+    "Usability",
+    "Desain Interaksi",
+    "UI",
+    "UX",
+    "Komputer",
+    "Input Device",
+    "Output Device",
+    "Memory"
   ]
 }
